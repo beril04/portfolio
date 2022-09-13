@@ -1,0 +1,146 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* media queri */
+
+@media screen and (min-width: 750px) {
+}
+
+/* media query */
+/* home */
+.jumbotron-md {
+  padding: 8rem 1rem;
+  background-image: url("background.jpg");
+  background-size: auto;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.container-home {
+  width: 390px;
+  height: 234px;
+}
+/* akir home */
+
+/* about */
+.container-about-md {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  align-items: center;
+  justify-content: center;
+  margin: auto 250px;
+  margin-top: 76px;
+}
+
+.img-about {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+/* akir about */
+
+/* projek */
+
+.container-background {
+  margin-top: 25px;
+  background-color: #212121;
+}
+
+.container-hasil {
+  display: grid;
+  margin-top: 76px;
+  margin-bottom: 76px;
+
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+}
+
+.container-porto {
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 76px;
+
+  grid-template-columns: 2fr 2fr 2fr;
+  gap: 30px;
+}
+
+.card {
+  width: 200px;
+  height: 150px;
+  margin: 25px auto;
+}
+
+.text-hasil {
+  margin-top: 50px;
+}
+
+/* akir project */
+
+/* contact */
+.container-contact {
+  margin-left: 320px;
+  background-image: url("background2.jpg");
+  background-size: cover;
+
+  display: grid;
+  justify-content: start;
+  align-items: center;
+
+  margin-bottom: 126px;
+}
+
+.judul-contact {
+  display: flex;
+  justify-content: start;
+}
+
+.container-logo {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 76px;
+  margin-top: 62px;
+
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  gap: 161px;
+}
+
+.card-logo {
+  width: 80px;
+  height: 80px;
+}
+/* akir contact */
+
+/* footer */
+.container-footer {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: #212121;
+  color: white;
+}
+
+.end {
+  display: flex;
+  justify-content: center;
+  margin: 23px auto;
+}
+
+.copy-right {
+  display: flex;
+  justify-content: center;
+}
+
+/* akir footer */
